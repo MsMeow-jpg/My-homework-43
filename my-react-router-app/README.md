@@ -91,3 +91,108 @@ HOMEWORK 43/
 
  ```
 ---
+## ⚙️ Installation and Launch
+1. Clone the repository:
+```bash
+git clone https://github.com/MsMeow-jpg/My-homework-43
+
+2. Go to the project folder:
+```bash
+cd My-homework-43/my-react-app
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Install React Router:
+```bash
+npm install react-router
+```
+5. Launch the project:
+```bash
+npm run dev
+```
+---
+After this, the project will be available at:
+```
+http://localhost:5173
+```
+
+---
+## 🌐 Demo
+
+🔗 Live demo:
+https://my-homework-43.vercel.app/
+---
+## 📦 Functionality
+
+- The project uses React Router for page navigation
+- `BrowserRouter` wraps the application and enables routing
+- `Routes` stores all route configurations
+- `Route` connects each URL path with a separate component
+- `NavLink` creates navigation links
+- active navigation links are highlighted with custom CSS
+- navigation works without page reload
+- route links are created dynamically from an array of objects
+- the project has three pages:
+  - Home
+  - About
+  - Contact
+- each page is stored in a separate component file
+- a decorative fantasy image is displayed in the header
+- a little demon image is fixed in the bottom-right corner
+- clicking the demon turns music on and off
+- custom CSS creates a dark fantasy cartoon-inspired interface
+---
+## 🧠 What we learned
+
+- Creating a React project with Vite
+- Installing and using React Router
+- Creating separate page components
+- Setting up routing in React
+- Using `BrowserRouter`
+- Using `Routes` and `Route`
+- Using `NavLink` instead of regular links
+- Styling active navigation links
+- Creating navigation from an array of objects
+- Importing images from the assets folder
+- Adding fixed decorative elements to the page
+- Using `useRef` to control audio
+- Playing and pausing music on click
+- Styling a React app with custom CSS
+- Creating a themed UI design
+---
+## 🎨 Design
+
+The application uses a dark fantasy cartoon-inspired visual style:
+
+- crooked medieval kingdom atmosphere
+- dark tavern and castle colors
+- parchment-style content cards
+- old fantasy notice board mood
+- sarcastic kingdom-themed text
+- magical bottle illustration in the header
+- little demon character in the page corner
+- white sticker-like outline around the demon
+- custom styled navigation buttons
+- warm gold, muddy green, brown, and dark purple colors
+---
+## 🧭 Routes
+```bash
+/          → Home page
+/about     → Kingdom Gossip page
+/contact   → Send a Raven page
+```
+
+---
+## ✍️ Author
+
+GitHub: MsMeow-jpg
+---
+## 📌 Note
+
+This project was completed as part of a React + Vite course assignment.
+
+The main goal of the project is to practice routing in React using React Router, create navigation between multiple pages, use NavLink for active link styling, and organize page components in separate files.
+
+The project also includes a custom fantasy cartoon-inspired design to make the interface more creative and visually interesting.
