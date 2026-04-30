@@ -95,7 +95,7 @@ HOMEWORK 43/
 1. Clone the repository:
 ```bash
 git clone https://github.com/MsMeow-jpg/My-homework-43
-
+```
 2. Go to the project folder:
 ```bash
 cd My-homework-43/my-react-app
